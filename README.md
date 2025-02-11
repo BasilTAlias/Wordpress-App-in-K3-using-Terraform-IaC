@@ -106,10 +106,80 @@ Include screenshots of:
 - Kubernetes pod status.
 - WordPress application running in a browser.
 
+![Alt text of the image](https://github.com/BasilTAlias/Wordpress-App-in-K3-using-Terraform-IaC/blob/main/images/1.png)
+
+$~$
+
+Initializing and Validating Terraform files
+
+---
+
+![Alt text of the image](https://github.com/BasilTAlias/Wordpress-App-in-K3-using-Terraform-IaC/blob/main/images/2.png)
+
+$~$
+
+Plan deployment
+
+---
+
+![Alt text of the image](https://github.com/BasilTAlias/Wordpress-App-in-K3-using-Terraform-IaC/blob/main/images/3.png)
+
+$~$
+
+Apply Configuration
+
+---
+
+![Alt text of the image](https://github.com/BasilTAlias/Wordpress-App-in-K3-using-Terraform-IaC/blob/main/images/4.png)
+
+$~$
+
+Apply Completed Successfully
+
+---
+
+![Alt text of the image](https://github.com/BasilTAlias/Wordpress-App-in-K3-using-Terraform-IaC/blob/main/images/5.png)
+
+$~$
+
+Showing Configuration
+
+---
+
+![Alt text of the image](https://github.com/BasilTAlias/Wordpress-App-in-K3-using-Terraform-IaC/blob/main/images/6.png)
+
+$~$
+
+Ec2 Instance Public IP details
+
+---
+
+![Alt text of the image](https://github.com/BasilTAlias/Wordpress-App-in-K3-using-Terraform-IaC/blob/main/images/7.png)
+
+$~$
+
+Accessing Web App
+
+---
+
+![Alt text of the image](https://github.com/BasilTAlias/Wordpress-App-in-K3-using-Terraform-IaC/blob/main/images/8.png)
+
+$~$
+
+Instance details from the AWS Console
+
+---
+
+![Alt text of the image](https://github.com/BasilTAlias/Wordpress-App-in-K3-using-Terraform-IaC/blob/main/images/9.png)
+
+$~$
+
+Checking Pods details using Kubectl
+
 ---
 
 ## Conclusion
-By following this guide, you successfully deployed a WordPress application on k3s using Terraform. This approach enables efficient infrastructure provisioning and application deployment in a reproducible manner.
+By following this guide, I successfully deployed a WordPress application on k3s using Terraform. This approach enables efficient infrastructure provisioning and application deployment in a reproducible manner.
 
 ---
 
