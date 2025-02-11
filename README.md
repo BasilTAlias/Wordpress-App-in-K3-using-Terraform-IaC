@@ -92,8 +92,12 @@ terraform show
    ```bash
    kubectl get svc -n wordpress
    ```
-2. Open a web browser and navigate to `http://<external-ip>` to complete the WordPress setup.
+2. The WordPress application is exposed on NodePort 31111.
 
+3. An inbound rule has been added to the security group to allow traffic on port 31111.
+
+4. Open a web browser and navigate to http://<external-ip>:31111 to complete the WordPress setup.
+   
 ---
 
 ## Screenshots
