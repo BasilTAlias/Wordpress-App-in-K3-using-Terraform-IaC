@@ -101,10 +101,7 @@ terraform show
 ---
 
 ## Screenshots
-Include screenshots of:
-- Terraform output after deployment.
-- Kubernetes pod status.
-- WordPress application running in a browser.
+
 
 ![Alt text of the image](https://github.com/BasilTAlias/Wordpress-App-in-K3-using-Terraform-IaC/blob/main/images/1.png)
 
