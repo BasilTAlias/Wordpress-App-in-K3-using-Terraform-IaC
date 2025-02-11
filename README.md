@@ -106,77 +106,77 @@ terraform show
 ![Alt text of the image](https://github.com/BasilTAlias/Wordpress-App-in-K3-using-Terraform-IaC/blob/main/images/1.png)
 
 
-
 Initializing and Validating Terraform files
+
 
 ---
 
 ![Alt text of the image](https://github.com/BasilTAlias/Wordpress-App-in-K3-using-Terraform-IaC/blob/main/images/2.png)
 
-$~$
 
 Plan deployment
+
 
 ---
 
 ![Alt text of the image](https://github.com/BasilTAlias/Wordpress-App-in-K3-using-Terraform-IaC/blob/main/images/3.png)
 
-$~$
 
 Apply Configuration
+
 
 ---
 
 ![Alt text of the image](https://github.com/BasilTAlias/Wordpress-App-in-K3-using-Terraform-IaC/blob/main/images/4.png)
 
-$~$
 
 Apply Completed Successfully
+
 
 ---
 
 ![Alt text of the image](https://github.com/BasilTAlias/Wordpress-App-in-K3-using-Terraform-IaC/blob/main/images/5.png)
 
-$~$
 
 Showing Configuration
+
 
 ---
 
 ![Alt text of the image](https://github.com/BasilTAlias/Wordpress-App-in-K3-using-Terraform-IaC/blob/main/images/6.png)
 
-$~$
 
 Ec2 Instance Public IP details
+
 
 ---
 
 ![Alt text of the image](https://github.com/BasilTAlias/Wordpress-App-in-K3-using-Terraform-IaC/blob/main/images/7.png)
 
-$~$
 
 Accessing Web App
+
 
 ---
 
 ![Alt text of the image](https://github.com/BasilTAlias/Wordpress-App-in-K3-using-Terraform-IaC/blob/main/images/8.png)
 
-$~$
 
 Instance details from the AWS Console
+
 
 ---
 
 ![Alt text of the image](https://github.com/BasilTAlias/Wordpress-App-in-K3-using-Terraform-IaC/blob/main/images/9.png)
 
-$~$
 
 Checking Pods details using Kubectl
+
 
 ---
 
 ## Conclusion
-By following this guide, I successfully deployed a WordPress application on k3s using Terraform. This approach enables efficient infrastructure provisioning and application deployment in a reproducible manner.
+Through this deployment, I successfully set up a WordPress application on a k3s cluster using Terraform, reinforcing my understanding of Infrastructure as Code (IaC) and Kubernetes orchestration. By provisioning an EC2 instance, configuring k3s, and deploying WordPress with Kubernetes manifests, I gained practical experience in automating cloud infrastructure. Additionally, exposing the application via NodePort 31111 and configuring security group rules enhanced my knowledge of networking and access control in AWS. This project strengthened my skills in Terraform, Kubernetes, and cloud automation, demonstrating the efficiency of declarative infrastructure management for scalable and reproducible deployments in cloud-native environments.
 
 ---
 
