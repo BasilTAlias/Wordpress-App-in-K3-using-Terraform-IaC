@@ -45,15 +45,32 @@ Before proceeding, ensure you have the following:
 ---
 
 ### Step 2: Initialize and Apply Terraform Configuration
-1. **Initialize Terraform**:
+ ### **1. Initialize Terraform**:
    ```bash
    terraform init
    ```
-2. **Apply the Terraform configuration**:
-   ```bash
-   terraform apply -auto-approve
-   ```
-3. Wait for the EC2 instance to be provisioned and k3s to be installed.
+
+   ### **2. Validate Configuration**
+```sh
+terraform validate
+```
+
+### **3. Plan Deployment**
+```sh
+terraform plan
+```
+
+### **4. Apply Configuration**
+```sh
+terraform apply -auto-approve
+```
+
+### **5. View Created Resources**
+```sh
+terraform show
+```
+
+### **6. Wait for the EC2 instance to be provisioned and k3s to be installed.**
 
 ---
 
