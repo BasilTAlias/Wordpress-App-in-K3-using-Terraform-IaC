@@ -180,6 +180,16 @@ Through this deployment, I successfully set up a WordPress application on a k3s 
 
 ---
 
+📝 Medium Article
+
+I also wrote a Medium article that walks through this project step-by-step:
+
+Title: Deploying WordPress on k3s with Terraform: A Lightweight Cloud-Native Setup
+Link: https://medium.com/@basiltaliaz/deploying-wordpress-on-k3s-with-terraform-a-lightweight-cloud-native-setup-e5a6d4db0aca
+
+---
+
+
 ## References
 - [Terraform Documentation](https://developer.hashicorp.com/terraform/docs)
 - [K3s Documentation](https://k3s.io)
